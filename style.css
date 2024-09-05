@@ -15,7 +15,7 @@
      --bg-color: #080808;
      --second-bg-color: #131313;
      --text-color: white;
-     --main-color: #00ffee;
+     --main-color: #87CEEB;
 
 
 }
@@ -186,6 +186,7 @@ span{
     font-weight: 600;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+    margin-top: 2rem;
 }
 
 .btn:hover{
@@ -427,11 +428,11 @@ span{
     margin: auto;
 }
 
-.testinomials{
+.projects{
     background: var(--bg-color);
 }
 
-.testinomials-box{
+.projects-box{
     background-size: cover;
     display: flex;
     align-items: center;
@@ -439,11 +440,11 @@ span{
     flex-direction: column;
 }
 
-.testinomials .heading{
+.projects .heading{
     margin-bottom: 5rem;
 }
 
-.testinomials-box img{
+.projects-box img{
     width: 15rem;
     border-radius: 50%;
     border: 3px solid var(--main-color);
@@ -456,7 +457,7 @@ span{
     gap: 3rem;
 }
 
-.testinomial-item{
+.project-item{
     min-height: 80px;
     max-width: 300px;
     background: rgba(0,0,0,0.7);
@@ -475,17 +476,17 @@ span{
     transition: 0.4s ease-in-out;
 }
 
-.testinomial-item:hover{
+.project-item:hover{
     border: 3px solid var(--main-color);
     transform: translateY(-10px)scale(1.03);
     box-shadow: 0 0 50px var(--main-color);
 }
 
-.testinomial-item h2{
+.project-item h2{
     font-size: 2.8rem;
 }
 
-.testinomial-item p{
+.project-item p{
     font-size: 1.3rem;
 }
 
@@ -533,8 +534,8 @@ span{
     #menu-icon{
         display: block;
     }
-}
-/*
+
+
 .navbar{
     position: absolute;
     top: 100%;
@@ -588,5 +589,6 @@ span{
 .services-container{
     grid-template-columns: repeat(1,1fr);
 }
-*/
 
+
+}
