@@ -224,7 +224,7 @@ span{
 }
 
 .text-animation span::before{
-    content: "Undergraduate in Informatics Engineering";
+    content: "Junior Software Engineer";
     color: var(--main-color);
     animation: words 20s infinite;
 }
